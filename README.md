@@ -11,4 +11,4 @@ MPPI is an MPC scheme that uses Monte-Carlo sampling of controls to approximate 
 Traditionally, MPC uses a derived dynamics model for the state transition, $\textbf{f}(\cdot)$, or for the inverse dynamics, $\textbf{f}^{-1}(\cdot)$. We demonstrate the ability to instead model $\textbf{f}(\cdot)$ and $\textbf{f}^{-1}(\cdot)$ as neural networks which, in the forward case, predict forces and torques from the system state and accelerations, and in the inverse case, predict accelerations from control forces and torques.
 
 ### Paper
-For information about our methods and implementation, please see our [final paper](https://github.com/micahreich/mppi-neural-dynamics/blob/main/docs/16_711_final_paper-2.pdf).
+For information about our methods and implementation, please see our [final paper](https://drive.google.com/file/d/1mn-0chY1_kxfsGx4krfGysyY-i1y83J3/view?usp=sharing).
